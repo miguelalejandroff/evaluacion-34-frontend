@@ -1,0 +1,43 @@
+body {
+  height: 100%;
+  font-family: "Mulish", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #0b0c2a;
+}
+
+/* Navbar.css */
+
+.bg-navbar {
+  background: #070720 !important;
+}
+
+/* Estado normal */
+.nav-link {
+  color: #b7b7b7;
+  padding: 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Estado hover */
+.nav-link:hover {
+  color: #ccc; /* Color al pasar el cursor */
+}
+
+/* Estado activo */
+.active {
+  color: #fff !important; /* Color cuando el enlace está activo */
+  font-weight: bold;
+}
+
+/* Breadcrumb.css*/
+
+.color-breadcrumb {
+  color: #b7b7b7 !important;
+}
+.color-breadcrumb::before {
+  color: #fff !important;
+}
+.fs-12 {
+  font-size: 12px;
+}
